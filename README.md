@@ -3,11 +3,9 @@ Open Android Studio
 Start android emulator
 
 
-npm install;
-
-npm start;
-
-a
+    npm install;
+    npm start;
+    a
 
 ---
 If it shows this error:
@@ -15,10 +13,9 @@ If it shows this error:
 
 Changing the permission on your tmp folder will resolve that, try with:
 
-chmod -R 0777 /tmp;
+    chmod -R 0777 /tmp;
 
 And then npm start again:
 
-npm start;
-
+    npm start;
 ---
